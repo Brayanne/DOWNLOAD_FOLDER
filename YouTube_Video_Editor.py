@@ -39,11 +39,9 @@ class MyGUI:
         self.newName = Tkinter.Entry(self.third_window, width = 70) #Text Box and Size
         self.newName.pack()#Displays textEntry to GUI        
         self.ContinueButton = Tkinter.Button(self.third_window, text = "Rename", command = self.renameCommands)#takes to renameCommands def
-        self.ContinueButton.pack()#Displays to GUI
-        
+        self.ContinueButton.pack()#Displays to GUI        
 
-    def renameCommands(self):
-        
+    def renameCommands(self):        
         OLD = self.originalName.get()#Gets the name into a variable
         NEW = self.newName.get()#Gets the name into a variable
         subprocess.call("cd Desktop", shell = True)#Command goes to users Desktop
