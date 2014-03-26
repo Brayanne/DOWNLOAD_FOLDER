@@ -109,7 +109,7 @@ class MyGUI:
         x = self.newName.get()
         subprocess.call("cd Desktop", shell = True)#does a process on the command prompt to direct to desktop
         subprocess.call("cd DOWNLOAD_FOLDER", shell = True)#does a process in the command prompt that redirects to the folder where program is saved
-        subprocess.call('ffplay -i ' + str(x) + '.mp4 -af aecho=0.8:0.9:1000:0.3',shell = True)
+        subprocess.call('ffplay -i ' + str(x) + '.mp4 -af aecho=0.8:0.9:1000:0.5',shell = True)
         #proces for command prompt which gets the audio
         #from video and echoes it by a second with a decay to sound lower
 
