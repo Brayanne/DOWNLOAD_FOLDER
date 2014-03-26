@@ -5,6 +5,8 @@
 ## avi or jpg) or an audio filter such as echo, lowers, highers the
 ## volume.  It can also convert the audio from Mp4 file to Mp3.
 ##
+## READ THE README file in order to have the video system work properly
+##
 ## Creators: Devon Rusconi - created GUI, downloaded ffmpeg, ffplay, and youtube-dl
 ## and coded into python using command line, used ffplay to play video and add filter
 ##
